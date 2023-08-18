@@ -1,0 +1,47 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+/* /////////////      Login Form      //////////// */
+#login{
+
+    background-color: rgb(23, 0, 44);
+    color:white;
+    height: 100vh;
+    background-image: url("https://www.transparenttextures.com/patterns/blizzard.png");
+}
+#login h1{
+    text-align: center;
+    margin-top: 10px;
+}
+#login-wrapper{
+background-color: black;
+padding: 40px;
+    max-width: 550px;
+    height: auto;
+    margin: 85px auto;
+}
+#login-wrapper button{
+    margin-top: 20px;
+}
+
+/* ////////////////     Home section      ////////////////////////  */
+
+#home,#composer{
+    background-color: rgb(23, 0, 44);
+    color:white;
+    height: 100vh;
+    background-image: url("https://www.transparenttextures.com/patterns/blizzard.png");
+}
+.home-menu{
+    background-color: black;
+    padding: 20px;
+    border-radius: 25px;
+}
+.about-image{
+    max-width: 400px ;
+    height: auto;
+}
+.about-me{
+    margin: 60px auto;
+}

@@ -1,0 +1,91 @@
+<%- include('partials/header') %>
+<body id="composer">
+
+    
+<section id="composer-wrapper">
+<div class="container">
+  <%- include('partials/menu') %>
+
+
+
+    <div class="row">
+        <div class="col-sm-12">
+            <h1>Article Quizz for competetive exam</h1>
+            <p>This is a testing app </p>
+        </div>
+
+
+        <div class="col-sm-12">
+            <form action="/post" method="POST">
+                <div class="form-group">
+                    <label >Topic</label>
+                    <select name="topic" class="form-control" id="exampleFormControlSelect1">
+                      <option>Article</option>
+                      <option>Right-form-Verb</option>
+                      <option>Preposition</option>
+                      <option>Synonyms</option>
+                      <option>Antonyms</option>
+                      <option>Tense</option>
+                      <option>Pronoun</option>
+                      <option>Misc</option>
+                    
+                     
+                    </select>
+                  </div>
+                <div class="form-group">
+                  <label >Question</label>
+                  <input type="text" name="Question" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter question">
+                 
+                </div>
+                <div class="form-group">
+                  <label > Option A: </label>
+                  <input type="text" class="form-control"  name="optionA" placeholder="option a ">
+                </div>
+                
+
+
+                <div class="form-group">
+                    <label > Option B: </label>
+                    <input type="text" class="form-control"  name="optionB" placeholder="option B ">
+                  </div>
+
+
+
+                  <div class="form-group">
+                    <label > Option C: </label>
+                    <input type="text" class="form-control"  name="optionC" placeholder="option C ">
+                  </div>
+
+
+
+                  <div class="form-group">
+                    <label > Option D: </label>
+                    <input type="text" class="form-control" name="optionD" placeholder="option D ">
+                  </div>
+
+                  <div class="form-group">
+                    <label for="exampleFormControlSelect1">Answer</label>
+                    <select name="answer" class="form-control" id="exampleFormControlSelect1">
+                      <option>A</option>
+                      <option>B</option>
+                      <option>C</option>
+                      <option>D</option>
+                     
+                    </select>
+                  </div>
+
+                 
+                <button type="submit" class="btn btn-primary">Submit</button>
+              </form>
+        </div>
+    </div>
+</div>
+    
+</section>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.min.js" integrity="sha384-Rx+T1VzGupg4BHQYs2gCW9It+akI2MM/mndMCy36UVfodzcJcF0GGLxZIzObiEfa" crossorigin="anonymous"></script>  
+</body>
+</html>
